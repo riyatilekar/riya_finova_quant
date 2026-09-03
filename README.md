@@ -22,7 +22,7 @@ stats.
 
 ## Verdict
 
-This strategy is good for catching that the prices are rising however it cannot predict whether they would continue rising or not. In the case of reliance and many other companies in nifty 50 such as tatamotors, infosys etc. this strategy fails more often than it succeeds. I think it catches on to the rising prices too late. By the time it realises the prices have already started falling.
+This strategy is good for catching that the prices are rising however it cannot predict whether they would continue rising or not. In the case of reliance and many other companies in nifty 50 such as infy, infosys, maruti etc. this strategy fails more often than it succeeds. I think it catches on to the rising prices too late. By the time it realises the prices have already started falling.
 
 This kind of strategy would be good for a market where the prices are stable and continue their trends without drastic changes.
 
