@@ -1,5 +1,4 @@
-# FINOVA Quant & Trading Committee — Domain Task
-## The Chart Detective: 20/50 EMA Crossover Backtest
+# FINOVA Quant & Trading Committee: Domain Task
 
 ## Repository structure
 reliance_trade_log.xlsx   - Trade log + 5 summary stats
@@ -22,6 +21,12 @@ Both trades lost money. See reliance_trade_log.xlsx for the full trade log and s
 stats.
 
 ## Verdict
-RELIANCE | 2 Trades | 0% Win Rate | [your one-line verdict here]
 
-[Your verdict paragraph goes here, in your own words.]
+This strategy is good for catching that the prices are rising however it cannot predict whether they would continue rising or not. In the case of reliance and many other companies in nifty 50 such as tatamotors, infosys etc. this strategy fails more often than it succeeds. I think it catches on to the rising prices too late. By the time it realises the prices have already started falling.
+
+This kind of strategy would be good for a market where the prices are stable and continue their trends without drastic changes.
+
+It's strength is that it catches the rising prices really well. It's weakness is that it cannot predict whether they will continue rising or not. Also it takes a while for it to realise they are falling. Also another weakness is that we trade whenever it crosses, regardless of how strong or weak that move actually is, there is no filter for how convincing the signal is. It also has no risk management built in, once you're in a trade it just holds until the next crossover no matter how far the price moves against you, there's no stop loss to cut a losing trade early.
+
+I would not trade this strategy with my own money.
+
